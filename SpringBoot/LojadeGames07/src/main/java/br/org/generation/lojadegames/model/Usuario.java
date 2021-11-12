@@ -44,10 +44,10 @@ public class Usuario {
 	private String senha;
 	
 	/*Formatando a data de nascimento
-	 
-	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-DD")
+	 */
+	 @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-DD")
 	private LocalDate data;
-     */	
+    
 	/*
 	@JsonFormat(pattern = "yyyy-MM-DD")
 	private LocalDate data;
@@ -83,5 +83,14 @@ public class Usuario {
 	public void setSenha(String senha) {
 		this.senha = senha;
 	}
+
+	public LocalDate getData() {
+		return data;
+	}
+
+	public void setData(LocalDate data) {
+		this.data = data;
+	}
+	
 	
 }
