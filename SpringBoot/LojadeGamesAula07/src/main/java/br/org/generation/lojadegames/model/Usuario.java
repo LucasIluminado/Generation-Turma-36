@@ -1,5 +1,7 @@
 package br.org.generation.lojadegames.model;
 
+import java.time.LocalDate;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -8,6 +10,8 @@ import javax.persistence.Table;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
 
 @Entity
 @Table(name = "tb_usuarios")
@@ -39,6 +43,15 @@ public class Usuario {
 	@Size(min = 8, message = "A Senha deve ter no mínimo 8 caracteres")
 	private String senha;
 	
+	/*Formatando a data de nascimento
+	 
+	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-DD")
+	private LocalDate data;
+     */	
+	/*
+	@JsonFormat(pattern = "yyyy-MM-DD")
+	private LocalDate data;
+	*/
 	public long getId() {
 		return id;
 	}
