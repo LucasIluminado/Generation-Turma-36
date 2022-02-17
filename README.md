@@ -21,7 +21,7 @@ Repositório focado nos exercicios desenvolvidos ao longo do Bloco I e Bloco II 
 
 <hr>
 
-### **Integrantes**
+### **Redes**
 
 - Lucas Bernardino |  <a href="https://www.linkedin.com/in/lucasdevsousa/" target="_blank"><img src="https://img.shields.io/badge/-Linkedin-blue" target="_blank"></a> |  <a href="https://github.com/LucasIluminado" target="_blank"><img src="https://img.shields.io/badge/-Github-gray" target="_blank"></a>  
 
